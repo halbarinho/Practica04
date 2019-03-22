@@ -21,13 +21,13 @@ public class Main {
         System.out.println("El saldo actual es"+ saldoActual );
 
         try {
-            cuenta1.retirar(2200);
+            cuenta1.retirar(2300);
         } catch (Exception e) {
             System.out.print("Fallo al retirar");
         }
         try {
             System.out.println("Ingreso en cuenta");
-            cuenta1.ingresar(695);
+            cuenta1.ingresar(690);
         } catch (Exception e) {
             System.out.print("Fallo al ingresar");
         }
